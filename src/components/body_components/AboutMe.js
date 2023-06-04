@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/AboutMe.css"
 
 export function AboutMe() {
     return (
@@ -11,7 +12,7 @@ export function AboutMe() {
             </span>
           </div>
         </div>
-        <h1 className={sectionTitle}>About Me</h1>
+        <h1 className="sectionTitle">About Me</h1>
           <div className="container">
             <div className="row">
               <div className="col-md-6">{}</div>

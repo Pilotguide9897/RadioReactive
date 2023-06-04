@@ -20,4 +20,4 @@ export function Card({ projectData }) {
       </div>
     </div>
   );
-}
+};

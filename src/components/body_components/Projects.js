@@ -1,11 +1,12 @@
 import React from "react";
+import { Card } from "./project_cards/Card";
 
 export function Projects() {
     return (
       <div className="projectsContainer">
         <h1 className="sectionTitle">Portfolio</h1>
         <div>
-            <ul></ul>
+            <Card />
         </div>
       </div>
     );

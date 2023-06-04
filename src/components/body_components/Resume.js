@@ -1,7 +1,7 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { FaFile } from "react-icons/fa";
+import { LanguagesTbl } from "./proficiency_tables/Languages";
+import { ToolsAndTechnologiesTbl } from "./proficiency_tables/Tools&frameworks";
 
 export function Resume () {
     return (
@@ -9,13 +9,12 @@ export function Resume () {
         <h1 className="sectionTitle">Resume</h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-6">{/* Content for the left column */}</div>
-            <div className="col-md-6">{/* Content for the right column */}</div>
+            <div className="col-md-6"><LanguagesTbl /></div>
+            <div className="col-md-6"><ToolsAndTechnologiesTbl /></div>
           </div>
         </div>
         <p>
-          A digital copy of my resume is free for you to review by following the
-          link below!
+          Download a copy of my resume for by following the link below!
         </p>
         <a href="https://docs.google.com/document/d/1sHwNQpeueq_V3hfTDiIXsr6bWi5T2iGZP9gNZC9rsJc/edit?usp=sharing">
           <FaFile />
