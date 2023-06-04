@@ -2,6 +2,7 @@ import React from "react";
 import { FaFile } from "react-icons/fa";
 import { LanguagesTbl } from "./proficiency_tables/Languages";
 import { ToolsAndTechnologiesTbl } from "./proficiency_tables/Tools&frameworks";
+import "../../styles/Resume.css";
 
 export function Resume () {
     return (

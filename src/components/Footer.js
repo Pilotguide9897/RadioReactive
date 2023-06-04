@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Footer.css";
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import "../styles/Footer.css";
 
 export function Footer() {
   return (
@@ -15,4 +15,4 @@ export function Footer() {
       </div>
     </footer>
   );
-}
+};

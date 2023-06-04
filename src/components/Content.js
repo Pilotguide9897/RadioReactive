@@ -1,12 +1,9 @@
 import React from "react";
-import "../styles/Body.css";
-import { AboutMe } from "./body_components/aboutMe";
-import { Contact } from "./body_components/Contact";
-import { Resume } from "./body_components/resume";
-import { Projects } from "./body_components/Project";
+import { Body } from "./body_components/Body";
+import "../styles/App.css";
 
-export function Body() {
+export function Content() {
     return (
-        
+        <Body />
     );
 };

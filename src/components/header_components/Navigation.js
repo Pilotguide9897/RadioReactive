@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Navbar.css";
+import "../../styles/Navigation.css";
 
 export function Navigation ({ currentPage, handlePageChange}) {
     return (

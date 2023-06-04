@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "./project_cards/Card";
+import "../../styles/Projects.css";
 
 export function Projects() {
     return (
@@ -10,4 +11,4 @@ export function Projects() {
         </div>
       </div>
     );
-}
+};
