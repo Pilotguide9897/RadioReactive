@@ -1,0 +1,15 @@
+{
+  "short_name": "Portfolio - JG",
+  "name": "Jared Green - Software Engineer",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "",
+  "background_color": ""
+}

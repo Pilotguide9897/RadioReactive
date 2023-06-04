@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Cardwise",
+        "description": "CardWise is a powerful and user-friendly browser-based application designed to enhance your study experience using spaced repetition techniques. With CardWise you can effortlessly create, save, and review decks of study cards, helping you master any subject with ease!",
+        "defaultImage": "",
+        "alternateImage": "",
+        "gitHubURL": "https://github.com/Pilotguide9897/CardWise",
+        "deploymentURL": "https://dry-badlands-78694.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "title": "Movie Buff",
+        "description": "Movie Buff is a browser-based application intended for lovers of film who want to learn more about their favourite movies and where they can watch them. Powered by the TMDB API, Watchmode API, News API, and featuring styling from the Bulma CSS framework, this app is designed as a one-stop-shop for all things movie and film-related media",
+        "defaultImage": "",
+        "alternateImage": "",
+        "gitHubURL": "https://github.com/Renjithkumar993/MovieBuff",
+        "deploymentURL": "https://renjithkumar993.github.io/MovieBuff/"
+    },
+    {
+        "id": 3,
+        "title": "The Thoughtful Technicist",
+        "description": "The Thoughtful Technicist is a CMS-style blog site designed for developers who write about technology. It provides a platform for users to create, edit, and delete blog posts, as well as leave comments on existing posts. The application follows the Model-View-Controller paradigm and uses Handlebars.js for views, MySQL and Sequelize for models, and Express.js for controllers.",
+        "defaultImage": "",
+        "alternateImage": "",
+        "gitHubURL": "https://github.com/Pilotguide9897/TheThoughtfulTechnicistV3",
+        "deploymentURL": "https://mighty-hollows-75122.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "title": "Webscribe",
+        "description": "WebScribe is a Text Editor that serves as a powerful, reliable, and fully-featured JavaScript text editor that runs directly in your browser. The application is a single-page application (SPA) that adheres to PWA guidelines, providing a native app-like experience.",
+        "defaultImage": "",
+        "alternateImage": "",
+        "gitHubURL": "https://github.com/Pilotguide9897/Webscribe",
+        "deploymentURL": "https://salty-spire-15700.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "title": "Timekeeper Calendars",
+        "description": "Timekeeper Calendars is a web-based workday schedules that provides a simple and intuitive planner for scheduling appointments and tasks during a typical business day.",
+        "defaultImage": "",
+        "alternateImage": "",
+        "gitHubURL": "https://github.com/Pilotguide9897/TimeKeeper_Calendars",
+        "deploymentURL": "https://pilotguide9897.github.io/TimeKeeper_Calendars/"
+    },
+    {
+        "id": 6,
+        "title": "Future Forecase Weather",
+        "description": "Future Forecast Weather is a browser-base applocation that travelers can use to easily search for and view weather data for any city in the world and upcoming 5-day forecast so that they may plan their travels accordingly. ",
+        "defaultImage": "",
+        "alternateImage": "",
+        "gitHubURL": "https://github.com/Pilotguide9897/FutureForecastWeather",
+        "deploymentURL": "https://pilotguide9897.github.io/FutureForecastWeather/"
+    }
+]
