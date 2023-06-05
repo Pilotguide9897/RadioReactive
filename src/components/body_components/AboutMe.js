@@ -1,11 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import "../../styles/AboutMe.css"
-import image1 from "../../../public/images/photo_avatar/photo/selfie.jpeg";
-import image2 from "../../../public/images/photo_avatar/avatar/stern.gif";
+import { Photo } from "./photo";
 
 export function AboutMe() {
-  const [isHovered, setIsHovered] = useState(false);
-
   const videoId = "wNI9UFZ_nhI";
 
     return (
@@ -23,12 +20,7 @@ export function AboutMe() {
             ></iframe>
           </div>
           <div className="portraitContainer">
-            <img
-              src={isHovered ? image1 : image2}
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-              alt="Self-portrait"
-            />
+            <Photo />
           </div>
         </div>
         <h1 className="sectionTitle">About Me</h1>
