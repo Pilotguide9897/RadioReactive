@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { AboutMe } from "./body components/aboutMe";
-import { Contact } from "./body components/Contact";
-import { Resume } from "./body components/resume";
-import { Projects } from "./body components/Project";
+import { AboutMe } from "./AboutMe";
+import { Contact } from "./Contact";
+import { Resume } from "./Resume";
+import { Projects } from "./Projects";
 import { Navigation } from "../header_components/Navigation";
-import "../../styles/Body";
+import "../../styles/Body.css";
 
-export function BodyContainer() {
+export function Body() {
   const [body, setBody] = useState("AboutMe");
 
   const renderStateOfBody = () => {

@@ -1,0 +1,21 @@
+.navContainer {
+    display: flex;
+    width: 100%;
+    background-color: #729B79;
+    justify-content: space-between;
+}
+
+.navbar {
+    list-style-type: none; 
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.navigationDiv {
+    display: inline-block;
+    flex-wrap: wrap;
+    max-width: 100%;
+}

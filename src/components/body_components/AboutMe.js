@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/AboutMe.css"
-import { Photo } from "./photo";
+import { Photo } from "./Photo";
 
 export function AboutMe() {
   const videoId = "wNI9UFZ_nhI";
@@ -14,9 +14,10 @@ export function AboutMe() {
               height="100%"
               src={`https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0&showinfo=0&loop=1&playlist=${videoId}&vq=highres`}
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="autoplay; encrypted-media"
-              allowfullscreen
+              allowFullScreen
+              className="videoFrame"
             ></iframe>
           </div>
           <div className="portraitContainer">
