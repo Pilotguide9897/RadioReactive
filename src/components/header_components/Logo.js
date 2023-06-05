@@ -5,7 +5,7 @@ import logo from "../../images/logo/logo.png"
 export function Logo() {
     return (
     <div className="logoDiv">
-        <a href="#Home">
+        <a href="#aboutMe">
             <img className="logo" src={logo} alt="Portfolio Logo"></img>
         </a>
     </div>

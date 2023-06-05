@@ -3,31 +3,13 @@ import "../../styles/AboutMe.css"
 import { Photo } from "./Photo";
 
 export function AboutMe() {
-  const videoId = "wNI9UFZ_nhI";
 
     return (
       <div className="aboutMeContainer">
-        <div>
-          <div className="videoContainer">
-            <iframe
-              width="100%"
-              height="100%"
-              src={`https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0&showinfo=0&loop=1&playlist=${videoId}&vq=highres`}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-              className="videoFrame"
-            ></iframe>
-          </div>
-          <div className="portraitContainer">
-            <Photo />
-          </div>
-        </div>
         <h1 className="sectionTitle">About Me</h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-6">{}</div>
+            <div className="col-md-6">{<Photo />}</div>
             <div className="col-md-6">
               {
                 <p className="aboutMeText">

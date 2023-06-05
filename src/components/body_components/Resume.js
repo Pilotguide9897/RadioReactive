@@ -10,16 +10,20 @@ export function Resume () {
         <h1 className="sectionTitle">Resume</h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-6"><LanguagesTbl /></div>
-            <div className="col-md-6"><ToolsAndTechnologiesTbl /></div>
+            <div className="col-md-6">
+              <LanguagesTbl />
+            </div>
+            <div className="col-md-6">
+              <ToolsAndTechnologiesTbl />
+            </div>
           </div>
         </div>
         <p>
-          Download a copy of my resume for by following the link below!
+          Download a copy of my resume for by following this link!{" "}
+          <a href="https://docs.google.com/document/d/1sHwNQpeueq_V3hfTDiIXsr6bWi5T2iGZP9gNZC9rsJc/edit?usp=sharing">
+            <FaFile />
+          </a>
         </p>
-        <a href="https://docs.google.com/document/d/1sHwNQpeueq_V3hfTDiIXsr6bWi5T2iGZP9gNZC9rsJc/edit?usp=sharing">
-          <FaFile />
-        </a>
       </div>
     );
 };
