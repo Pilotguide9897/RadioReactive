@@ -3,13 +3,13 @@
   "name": "Jared Green - Software Engineer",
   "icons": [
     {
-      "src": "",
-      "sizes": "",
-      "type": ""
+      "src": "./favicon/favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "",
-  "background_color": ""
+  "theme_color": "F46036",
+  "background_color": "414770"
 }

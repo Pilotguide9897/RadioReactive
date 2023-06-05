@@ -1,47 +1,31 @@
 import React from "react";
+import "../../../styles/Tables.css";
+import { FaJsSquare, FaHtml5, FaCss3, FaPython, FaRProject   } from "react-icons/fa";
 
 export function LanguagesTbl() {
     return (
       <div className="table-responsive">
-        <table className="table table-bordered">
+        <table className="table table-bordered table-hover">
           <thead className="thead-dark">
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
+              <th scope="col">Language</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
+              <td>JavaScript(ES6) <FaJsSquare /></td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
+              <td>CSS3 <FaCss3 /></td>
             </tr>
             <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
+              <td>HTML5 <FaHtml5 /></td>
             </tr>
             <tr>
-              <th scope="row">4</th>
-              <td>Larry</td>
+              <td>Python <FaPython /></td>
             </tr>
             <tr>
-              <th scope="row">5</th>
-              <td>Larry</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>Larry</td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>Larry</td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>Larry</td>
+              <td>R <FaRProject /></td>
             </tr>
           </tbody>
         </table>

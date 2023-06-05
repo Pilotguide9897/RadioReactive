@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../../styles/Form.css";
 
 export function Form() {
   const [name, setName] = useState("");
@@ -97,4 +98,4 @@ export function Form() {
       {hoverMessage && <p>{hoverMessage}</p>}
     </div>
   );
-}
+};
