@@ -5,8 +5,7 @@ import "../styles/Footer.css";
 export function Footer() {
   return (
     <footer className="footerContainer">
-      <p className="footerText">© 2023 - Jared Green </p>
-      <p className="footerText">Follow me on these social media platforms!</p>
+      <p className="footerText">© 2023 - Jared Green <br/><br/> Follow me on these social media platforms!</p>
       <div className="socialMediaContainer">
         <a href="https://github.com/Pilotguide9897" className="socialMediaIcon">
           <FaGithub />

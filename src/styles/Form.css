@@ -53,3 +53,7 @@ form button {
   opacity: 1;
 }
 
+.contactFormSubmitBtn:hover {
+  background-color: #729b60;
+}
+

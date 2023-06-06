@@ -4,7 +4,7 @@ import { Contact } from "./Contact";
 import { Resume } from "./Resume";
 import { Projects } from "./Projects";
 import { Navigation } from "../header_components/Navigation";
-import "../../styles/Body.css";
+
 
 export function Body() {
   const [body, setBody] = useState("AboutMe");
