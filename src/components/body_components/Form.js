@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../../styles/Form.css";
 
 export function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [hoverMessage, setHoverMessage] = useState("");
+  const [tooltip, setTooltip] = useState({
+    message: "",
+    position: { x: 0, y: 0 },
+  });
+  const tooltipTimeout = useRef(null);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -33,23 +37,57 @@ export function Form() {
     setMessage("");
   };
 
-  const handleMouseExit = () => {
-    if (name === "") {
-      setHoverMessage(
-        "Do not forget to leave your name! This field is required."
-      );
-    } else if (email === "") {
-      setHoverMessage(
-        "Please leave an email address for me to reach you at! This field is required."
-      );
-    } else if (message === "") {
-      setHoverMessage(
-        "Remember to leave a message so that I know why you would like to get in touch. This field is required."
-      );
-    } else {
-      setHoverMessage("");
+  const handleMouseLeave = (e, field) => {
+    const message =
+      field === "name"
+        ? "Do not forget to leave your name! This field is required."
+        : field === "email"
+        ? "Do not forget to leave your email! This field is required."
+        : "Do not forget to leave your message! This field is required.";
+
+    if (!e.target.value) {
+      setTooltip({
+        message,
+        position: {
+          x: e.clientX,
+          y: e.clientY,
+        },
+      });
+
+      if (tooltipTimeout.current) {
+        clearTimeout(tooltipTimeout.current);
+      }
+
+      tooltipTimeout.current = setTimeout(() => {
+        setTooltip({ message: "", position: { x: 0, y: 0 } });
+      }, 2000);
     }
   };
+
+  const handleMouseMove = (e) => {
+    if (tooltip.message) {
+      setTooltip((tooltip) => ({
+        ...tooltip,
+        position: {
+          x: e.clientX,
+          y: e.clientY,
+        },
+      }));
+    }
+  };
+
+  // Add a global mouse move listener when the tooltip is displayed
+  useEffect(() => {
+    if (tooltip.message) {
+      window.addEventListener("mousemove", handleMouseMove);
+    } else {
+      window.removeEventListener("mousemove", handleMouseMove);
+    }
+
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, [tooltip.message]);
 
   const handleValidation = () => {
     if (!name) {
@@ -64,29 +102,36 @@ export function Form() {
   };
 
   return (
-    <div>
+    <div className="contactFormDiv">
       <form className="contactForm">
         <input
           name="name"
+          id="nameFld"
           type="text"
           onChange={handleInputChange}
-          onMouseLeave={handleMouseExit}
+          onMouseLeave={(e) => handleMouseLeave(e, "name")}
           placeholder="Enter your name"
+          required
         ></input>
         <input
           name="email"
+          id="emailFld"
           type="text"
           onChange={handleInputChange}
-          onMouseLeave={handleMouseExit}
+          onMouseLeave={(e) => handleMouseLeave(e, "email")}
           placeholder="Enter your email"
+          required
         ></input>
-        <input
+        <textarea
           name="message"
+          id="messageFld"
           type="text"
+          rows="4"
           onChange={handleInputChange}
-          onMouseLeave={handleMouseExit}
+          onMouseLeave={(e) => handleMouseLeave(e, "message")}
           placeholder="Leave a message"
-        ></input>
+          required
+        ></textarea>
         <button
           type="button"
           onClick={handleFormSubmission}
@@ -95,7 +140,14 @@ export function Form() {
           Submit
         </button>
       </form>
-      {hoverMessage && <p>{hoverMessage}</p>}
+      {tooltip.message && (
+        <div
+          className={`tooltip ${tooltip.message ? "visible" : ""}`}
+          style={{ top: tooltip.position.y, left: tooltip.position.x }}
+        >
+          {tooltip.message}
+        </div>
+      )}
     </div>
   );
 };

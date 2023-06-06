@@ -1,10 +1,14 @@
 import React from "react";
 import "../../styles/Logo.css";
+import logo from "../../images/logo/logo.png"
 
 export function Logo() {
     return (
-        <a href="#Home">
-            <img src="../../../public/images/logo/logo.png" alt="Portfolio Logo"></img>
+    <div className="logoDiv">
+        <a href="#aboutMe">
+            <img className="logo" src={logo} alt="Portfolio Logo"></img>
         </a>
+    </div>
+      
     );
 };

@@ -1,0 +1,9 @@
+.socialMediaContainer a {
+    color: white;
+}
+
+.socialMediaIcon {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
+}
