@@ -1,0 +1,25 @@
+.allCards {
+
+}
+
+.card-body {
+    width: 600px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-color: #2E2C2F;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+#cardImageContainer {
+    height: 150px;
+    border-radius: 25px 25px 0 0;
+}
+
+a {
+    color: white;
+}
+
+a .socialMediaIcon {
+    font-size: xx-large;
+} 
