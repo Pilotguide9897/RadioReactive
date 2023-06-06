@@ -39,8 +39,8 @@
         "id": 5,
         "title": "Timekeeper Calendars",
         "description": "Timekeeper Calendars is a web-based workday schedules that provides a simple and intuitive planner for scheduling appointments and tasks during a typical business day.",
-        "defaultImage": "/images/app_images/timeKeeperCalendars/defaultImage/timekeeper_calendars.png",
-        "alternateImage": "/images/app_images/timeKeeperCalendars/altImage/timekeeper_calendars2.png",
+        "defaultImage": "/images/app_images/timeKeeperCalendars/altImage/timekeeper_calendars2.png",
+        "alternateImage": "/images/app_images/timeKeeperCalendars/defaultImage/timekeeper_calendars.png",
         "gitHubURL": "https://github.com/Pilotguide9897/TimeKeeper_Calendars",
         "deploymentURL": "https://pilotguide9897.github.io/TimeKeeper_Calendars/"
     },

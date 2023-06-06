@@ -1,3 +1,11 @@
+.footerContainer {
+    background-color: #729B79;
+}
+
+.footerText {
+    padding-top: 10px;
+}
+
 .socialMediaContainer a {
     color: white;
 }

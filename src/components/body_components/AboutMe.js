@@ -12,9 +12,9 @@ export function AboutMe() {
         <div className="aboutMeContent">
           <Photo />
           <p className="aboutMeText">
-            Hello! I am Jared Green, a New Brunsiwick based web developer
-            who specializes in creating stylish and resource-efficient
-            Full-Stack applications. Drawing upon experience from my
+            Hello! I am Jared, a New Brunsiwick based Full-Stack web developer
+            who specializes in creating stylish and resource-efficient applications. 
+            Drawing upon experience from my
             background in the study of psychology to provide a
             solutions-focused approach to teamwork and cooperative
             software design, I earned a certificate in Full Stack Web

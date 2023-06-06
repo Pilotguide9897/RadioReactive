@@ -13,11 +13,12 @@ export function Resume () {
               <ToolsAndTechnologiesTbl />
         </div>
         <p>
-          Download a copy of my resume for by following this link!{" "}
+          Download a copy of my resume by following this link!{" "}
           <a href="https://docs.google.com/document/d/1sHwNQpeueq_V3hfTDiIXsr6bWi5T2iGZP9gNZC9rsJc/edit?usp=sharing">
             <FaFile />
           </a>
         </p>
+        <br/>
       </div>
     );
 };
