@@ -13,10 +13,10 @@ A professional portfolio created using react.
 
 ## Screenshots 
 
-![About Me]()
-![Portfolio]()
-![Contact Me]()
-![Resume]()
+![About Me](./public/screenshots/aboutMe.png)
+![Portfolio](./public/screenshots/projects.png)
+![Contact Me](./public/screenshots/contact.png)
+![Resume](./public/screenshots/resume.png)
 
 ## Description
 
