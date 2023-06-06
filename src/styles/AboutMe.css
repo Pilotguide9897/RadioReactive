@@ -1,16 +1,20 @@
 .aboutMeContainer {
   position: relative;
   width: 100%;
-  height: 100%;
 }
 
 .aboutMeContent {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  
   margin-left: 10%;
   margin-right: 10%;
 
+}
+
+.aboutMeContent img {
+  padding-bottom: 20px;
+  border-radius: 50px;
 }
 
 .sectionTitle {
@@ -25,5 +29,21 @@
 
 .aboutMeText {
   margin-bottom: 10px;
-  margin-left: 15px;
+  margin-left: 50px;
+}
+
+@media (max-width: 950px) {
+  .aboutMeContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutMeContent img {
+    max-height: 500px;
+    max-width: 300px;
+  }
+
+  .aboutMeText {
+    margin-bottom: 25px;
+  }
 }

@@ -4,8 +4,10 @@ import { Photo } from "./Photo";
 
 export function AboutMe() {
 
+  const sourcePath = `${process.env.PUBLIC_URL}/images/hero/nightsky.jpg`;
+
     return (
-      <div className="aboutMeContainer">
+      <div className="aboutMeContainer" style={{backgroundImage: `url(${sourcePath})`, backgroundSize: "cover", backgroundPosition: "center"}}>
         <h1 className="sectionTitle">About Me</h1>
         <div className="aboutMeContent">
           <Photo />

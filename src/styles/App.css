@@ -3,19 +3,17 @@
 }
 
 #root {
-  height: 100%;
+
 }
 
 .App {
   text-align: center;
   background-color: #475B63;
-  height: 100%;
   color: white;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +29,6 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
   padding: 0%;
 }
 
@@ -42,6 +39,12 @@ code {
 
 .sectionTitle {
   align-items: start;
+  background-color: #2E2C2F;
 }
+
+a :hover {
+  color: #729B79;
+}
+
 
 

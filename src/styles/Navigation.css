@@ -1,6 +1,7 @@
 .navContainer {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     background-color: #729B79;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +29,7 @@
 }
 
 .nav-item a:hover{
-    color: #F3E8EE !important;
+    color: #475B63 !important;
 }
 
 .navigationDiv {

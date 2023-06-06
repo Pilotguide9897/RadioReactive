@@ -13,7 +13,7 @@ export function Projects() {
                 return (
                   <Card primaryCard={true} projectData={portfolioItem} key={portfolioItem.id}/>
                 );
-              } else if (index === 2 || index === 3) {
+              } else if (index === 1 || index === 2) {
                 return (
                   <Card secondaryCard={true} projectData={portfolioItem} key={portfolioItem.id} />
                 );

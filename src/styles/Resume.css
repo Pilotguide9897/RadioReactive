@@ -1,7 +1,9 @@
 .resumeContent {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     width: 60%;
     max-width: 570px;
+    margin: auto;
 }

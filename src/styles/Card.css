@@ -1,14 +1,24 @@
 .allCards {
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
 
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .card-body {
-    width: 600px;
     background-image: cover;
     background-repeat: no-repeat;
     background-color: #2E2C2F;
     border-radius: 25px;
     margin-bottom: 25px;
+    
 }
 
 #cardImageContainer {
@@ -20,6 +30,14 @@ a {
     color: white;
 }
 
-a .socialMediaIcon {
-    font-size: xx-large;
-} 
+.primaryCard {
+    flex-basis: 100%;
+}
+
+.secondaryCard {
+    flex-basis: 50%;
+}
+
+.tertiaryCard {
+    flex-basis: 33%;
+}
