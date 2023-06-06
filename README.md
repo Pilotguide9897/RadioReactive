@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Webscribe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Available Scripts
+A professional portfolio created using react. 
 
-In the project directory, you can run:
+## Table of Contents
+- [Screenshots](#screenshots)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage) 
+- [License](#license)
 
-### `npm start`
+## Screenshots 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![About Me]()
+![Portfolio]()
+![Contact Me]()
+![Resume]()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+Welcome to my portfolio! I am Jared Green, a Full-Stack Web Developer based in New Brunswick. My passion for stylish and resource-efficient applications has led me to specialize in a range of technologies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This portfolio is a curated showcase of my work in web development, highlighting projects that best reflect my skills and experiences in this field. My journey has taken me from studying psychology to a Full-Stack Web Development certificate from the University of New Brunswick. Here, you'll find applications that combine clean code, intuitive design, and practical problem-solving solutions.
 
-### `npm run build`
+My background in psychology informs my approach to web development, instilling in me a user-centric perspective and a dedication to accessibility. Through this portfolio, you'll get a sense of my adaptability, my attention to detail, and my commitment to continual learning, all of which I bring to every project I undertake.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I am particularly proud of the projects presented here as they demonstrate a wide range of proficiency in both front and back end technologies. Each project included has been an opportunity to explore and apply new tools and methodologies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to explore and reach out if you have any questions or would like to discuss opportunities to collaborate. I am always open to new challenges and looking forward to helping bring your next project to life!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+My React portfolio has been delpoyed via GitHub Pages and can be visited [here]().
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This application is deployed through GitHub Pages, no installation is necessary to view this site.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+Viewers of this portfolio may navigate the application using the tabs in the top-right corner to switch between sections about me, my past and current projects, a form for contacting me with questions or comments, and a page outlining my technical competencies. As a typical portfolio, this deployment is primarily a read-only site and features minimal user interaction.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Plans for Future Development
+As my skills with front-end development grow, I plan to continue to update and expand this portfolio to better demonstrate what I am capable of as a developer. As it stands, this portfolio represents a rought product that has significant room for improvement.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Questions
+If you have any questions concerning this application, do not hesitate to reach me at jaredryan1997@hotmail.com. You may also view my GitHub profile at http://github.com/Pilotguide9897.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg). See the [license](https://opensource.org/licenses/MIT) documentation for more information.
