@@ -8,15 +8,9 @@ export function Resume () {
     return (
       <div className="resumeContainer">
         <h1 className="sectionTitle">Resume</h1>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
+        <div className="resumeContent">
               <LanguagesTbl />
-            </div>
-            <div className="col-md-6">
               <ToolsAndTechnologiesTbl />
-            </div>
-          </div>
         </div>
         <p>
           Download a copy of my resume for by following this link!{" "}

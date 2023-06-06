@@ -1,0 +1,55 @@
+form {
+    background: #BACDB0;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #F3E8EE;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: #729B79;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 25%;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.contactFormDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip {
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+  transform: translate(-50%, -105%);
+}
+
+.tooltip.visible {
+  visibility: visible;
+  opacity: 1;
+}
+

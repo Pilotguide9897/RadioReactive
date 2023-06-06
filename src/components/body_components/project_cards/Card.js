@@ -4,8 +4,8 @@ import "../../../styles/Card.css";
 
 export function Card({ primaryCard, secondaryCard, projectData }) {
 
-  let sourcePath1 = projectData.defaultImage;
-  let sourcePath2 = projectData.alternateImage;
+ let sourcePath1 = `${process.env.PUBLIC_URL}${projectData.defaultImage}`;
+ let sourcePath2 = `${process.env.PUBLIC_URL}${projectData.alternateImage}`;
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -22,7 +22,7 @@ export function Card({ primaryCard, secondaryCard, projectData }) {
             <a href={projectData.gitHubURL} className="socialMediaIcon">
               <FaGithub />
             </a>
-            <a href={projectData.deployedURL}>
+            <a href={projectData.deploymentURL}>
               <FaLink />
             </a>
           </div>

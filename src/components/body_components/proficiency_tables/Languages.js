@@ -4,7 +4,7 @@ import { FaJsSquare, FaHtml5, FaCss3, FaPython, FaRProject   } from "react-icons
 
 export function LanguagesTbl() {
     return (
-      <div className="table-responsive">
+      
         <table className="table table-bordered table-hover content-table">
           <thead className="thead-dark">
             <tr>
@@ -39,6 +39,5 @@ export function LanguagesTbl() {
             </tr>
           </tbody>
         </table>
-      </div>
     );
 };
