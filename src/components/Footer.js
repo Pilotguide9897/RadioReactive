@@ -11,7 +11,7 @@ export function Footer() {
           <FaGithub />
         </a>
         <a
-          href="www.linkedin.com/in/jared-green-3462aa267"
+          href="http://www.linkedin.com/in/jared-green-3462aa267"
           className="socialMediaIcon"
         >
           <FaLinkedin />

@@ -21,7 +21,7 @@ export function Projects() {
                   <Card projectData={portfolioItem} key={portfolioItem.id} />
                 );
               }
-            })};
+            })}
         </div>
       </div>
     );

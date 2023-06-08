@@ -76,7 +76,6 @@ export function Form() {
     }
   };
 
-  // Add a global mouse move listener when the tooltip is displayed
   useEffect(() => {
     if (tooltip.message) {
       window.addEventListener("mousemove", handleMouseMove);
@@ -108,6 +107,7 @@ export function Form() {
           name="name"
           id="nameFld"
           type="text"
+          value={name}
           onChange={handleInputChange}
           onMouseLeave={(e) => handleMouseLeave(e, "name")}
           placeholder="Enter your name"
@@ -117,6 +117,7 @@ export function Form() {
           name="email"
           id="emailFld"
           type="text"
+          value={email}
           onChange={handleInputChange}
           onMouseLeave={(e) => handleMouseLeave(e, "email")}
           placeholder="Enter your email"
@@ -127,6 +128,7 @@ export function Form() {
           id="messageFld"
           type="text"
           rows="4"
+          value={message}
           onChange={handleInputChange}
           onMouseLeave={(e) => handleMouseLeave(e, "message")}
           placeholder="Leave a message"
