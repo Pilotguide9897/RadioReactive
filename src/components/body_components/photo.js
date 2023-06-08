@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import image1 from "../../images/photo_avatar/photo/selfie.jpeg";
 import image2 from "../../images/photo_avatar/avatar/stern.gif";
-import "../../styles/Photo.css"
 
 export function Photo() {
      const [isHovered, setIsHovered] = useState(false);

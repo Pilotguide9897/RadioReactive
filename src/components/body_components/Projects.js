@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "./project_cards/Card";
-import "../../styles/Projects.css";
 import portfolioProjects from "../../project_data/projectData.json"
 
 export function Projects() {
@@ -22,7 +21,7 @@ export function Projects() {
                   <Card projectData={portfolioItem} key={portfolioItem.id} />
                 );
               }
-            })};
+            })}
         </div>
       </div>
     );

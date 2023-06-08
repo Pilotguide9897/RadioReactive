@@ -1,19 +1,26 @@
-import React from "react";
+import React, {useState} from "react";
 import "../../styles/Navigation.css";
 import {Logo} from "./Logo";
 
 export function Navigation ({ currentPage, handlePageChange}) {
+
+ const [isActive, setIsActive] = useState(false);
+
+ const toggleActive = () => {
+   setIsActive(!isActive);
+ };
+
     return (
       <nav className="navContainer">
         <div className="navigationDiv">
           <Logo />
         </div>
-        <a href="#" className="toggle-button">
+        <a href="#" className="toggle-button" onClick={toggleActive}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </a>
-        <div classname="navbarLinks">
+        <div className={`navbarLinks ${isActive ? "active" : ""}`}>
           <ul className="navbar text-light">
             <li className="nav-item">
               {" "}

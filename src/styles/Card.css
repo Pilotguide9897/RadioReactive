@@ -1,7 +1,6 @@
 .allCards {
     padding-right: 10px;
     padding-left: 10px;
-    
 }
 
 .cardContainer {
@@ -19,7 +18,10 @@
     border-radius: 25px;
     margin-bottom: 25px;
     border: 3px solid black;
-    
+}
+
+.card-body:hover {
+    transform: scale(1.02) perspective(1px);
 }
 
 #cardImageContainer {
@@ -41,4 +43,14 @@ a {
 
 .tertiaryCard {
     flex-basis: 33%;
+}
+
+@media (max-width: 968px) {
+    .secondaryCard {
+        flex-basis: 100%;
+    }
+
+    .tertiaryCard {
+        flex-basis: 50%;
+    }
 }
