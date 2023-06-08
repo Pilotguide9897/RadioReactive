@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RadioReactive/static/css/main.87832d4d.css",
-    "main.js": "/RadioReactive/static/js/main.13499dbb.js",
+    "main.css": "/RadioReactive/static/css/main.6da9cce2.css",
+    "main.js": "/RadioReactive/static/js/main.d941fc30.js",
     "static/media/stern.gif": "/RadioReactive/static/media/stern.b5108e431148e089a6c4.gif",
     "static/media/logo.png": "/RadioReactive/static/media/logo.62da574c9bee687fdec7.png",
     "static/media/selfie.jpeg": "/RadioReactive/static/media/selfie.998810534e6af389b1a5.jpeg",
     "index.html": "/RadioReactive/index.html",
-    "main.87832d4d.css.map": "/RadioReactive/static/css/main.87832d4d.css.map",
-    "main.13499dbb.js.map": "/RadioReactive/static/js/main.13499dbb.js.map"
+    "main.6da9cce2.css.map": "/RadioReactive/static/css/main.6da9cce2.css.map",
+    "main.d941fc30.js.map": "/RadioReactive/static/js/main.d941fc30.js.map"
   },
   "entrypoints": [
-    "static/css/main.87832d4d.css",
-    "static/js/main.13499dbb.js"
+    "static/css/main.6da9cce2.css",
+    "static/js/main.d941fc30.js"
   ]
 }
